@@ -16,16 +16,6 @@ let ourInput = document.querySelector(".myInput");
 ourInput.addEventListener("input", (e) => {
   let myP = document.querySelector("p");
   let initialInput = e.target.value;
-  //   let myArray = initialInput
-  //     .split(" ")
-  //     .map((x) => {
-  //       let len = x.length;
-  //       if (len > 1) {
-  //         x = x[len - 1] + x.substring(1, len - 1) + x[0];
-  //       }
-  //       return x;
-  //     })
-  //     .join(" ");
   let initialArray = initialInput.split("");
   let firsChar = initialArray[0];
   let lastChar = initialArray[initialArray.length - 1];
